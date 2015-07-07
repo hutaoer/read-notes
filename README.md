@@ -16,6 +16,9 @@ read books and write notes
 
 ### 网络资源
 
+
+### javascript
+
 #### http
 * HTTP Get请求url最大长度
   - IE6.0                :url最大长度2083个字符，超过最大长度后无法提交。
