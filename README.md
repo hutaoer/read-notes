@@ -19,6 +19,9 @@ read books and write notes
 
 ### javascript
 
+#### 模块加载器
+* [CommonJs与AMD](https://github.com/hutaoer/read-notes/blob/master/technology/javascript_module_load.md)
+
 #### http
 * HTTP Get请求url最大长度
   - IE6.0                :url最大长度2083个字符，超过最大长度后无法提交。
