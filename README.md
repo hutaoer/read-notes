@@ -29,3 +29,20 @@ read books and write notes
   - firefox 3.0.3     :url最大长度7764个字符，超过最大长度后无法提交。
   - Opera 9.52       :url最大长度7648个字符，超过最大长度后无法提交。
   - Google Chrome 2.0.168   :url最大长度7713个字符，超过最大长度后无法提交
+
+### 编辑器
+* [webstorm](https://github.com/hutaoer/read-notes/blob/master/technology/editor.md)
+
+
+### ios
+* [ios开发笔记](https://github.com/hutaoer/read-notes/blob/master/technology/ios.md)
+
+### git
+* [git操作笔记](https://github.com/hutaoer/read-notes/blob/master/technology/git.md)
+
+
+### shell
+* [shell学习笔记](https://github.com/hutaoer/read-notes/blob/master/technology/shell.md)
+
+### nodejs
+* [nodejs学习笔记](https://github.com/hutaoer/read-notes/blob/master/technology/nodejs.md)
