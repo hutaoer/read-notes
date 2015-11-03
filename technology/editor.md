@@ -3,6 +3,7 @@
 ##  webstorm
 
 * 格式化代码：cmd+alt+l
+* 【code】->【format code】
 
 ### webstorm yield语法警告提示
 * 使用es6的语法，有警告提示。

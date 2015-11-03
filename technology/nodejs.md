@@ -23,3 +23,9 @@
 
 ## try-catch
 * 只有在同步的代码块中才能try-catch，不能在回调中使用。
+
+
+## generator
+* yield后面可以跟 *anothergenerator，这样当前的断点就会进入到anothergenerator的generatorfunction里面，等子generator全部执行完后再回来继续执行。这个其实有点类似递归的意思。
+* 另外子generatorfunction的return值会做为yield*generator的返回值。
+* 子generator的generatorFunction里面如果有return的话，下面的断点就不再起作用，而是提前返回，并且return的值 作为代理调用的返回值。
