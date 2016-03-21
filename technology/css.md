@@ -11,3 +11,17 @@
 ## clear
 * 对于CSS的清除浮动(clear)，一定要牢记：这个规则只能影响使用清除的元素本身，不能影响其他元素。
 * 比如两个div都是float left。那么对第一个div设置clear:right,由于只是对div1产生影响，不会影响div2。然后，设置clear不会让div1移动，所以div2也不会动。如果要让div2下移，需要在div2上设置clear:left.
+
+
+
+# less 编译滤镜报错解决
+* 编译下面的代码时候，无法编译通过
+```
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/notice-icon.gif', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=’img/notice-icon.gif’, sizingMethod=’scale’)";
+```
+* 解决方案：在代码前面添加"~"符号，并用引号括起来
+```
+filter: ~"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=’img/notice-icon.gif’, sizingMethod=’scale’)";
+-ms-filter: ~"\“progid:DXImageTransform.Microsoft.AlphaImageLoader(src=’img/notice-icon.gif’, sizingMethod=’scale’)\”";
+```
