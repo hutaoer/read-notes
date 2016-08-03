@@ -3,6 +3,18 @@
 ## 知乎问答
 * [AMD 和 CMD 的区别有哪些](http://www.zhihu.com/question/20351507)
 
+## 参考
+* [SeaJS与RequireJS最大的区别](https://www.douban.com/note/283566440/)
+* [SeaJS 与 RequireJS 的异同](https://github.com/seajs/seajs/issues/277)
+* [AMD和CMD的区别](https://github.com/tengfeima/CalendarPlugin/issues/7)
+* [使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript](http://justineo.github.io/singles/writing-modular-js/)
+
+## 个人理解
+* SeaJS 是在 require 的地方再去分析执行 define 中的代码
+* RequireJS 是一开始就分析执行 define 中的代码
+* 共同点：模块都是并行加载（load）
+
+
 
 ## CommonJS
 CommonJS是一个组织，它让JS可以在共同的方向上做努力，来完善JS。
