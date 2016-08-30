@@ -45,4 +45,6 @@ for (var key of Object.keys(someObject)) {
 }
 ```
 
+# 常识
+* 通过append <script> 标签加载 js，不会影响页面 js 中代码的执行，因为是异步的。如果需要使用 append 标签中的代码，需要通过回调的方式，否则会报错。
 
