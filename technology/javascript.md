@@ -7,16 +7,7 @@
         console.log(a,b) // 1 undefined
     })(1)
 
-# 获取 window 视口尺寸
-* 对于Internet Explorer、Chrome、Firefox、Opera 以及 Safari：
-  - window.innerHeight - 浏览器窗口的内部高度
-  - window.innerWidth - 浏览器窗口的内部宽度
-* 对于 Internet Explorer 8、7、6、5：
-  - document.documentElement.clientHeight
-  - document.documentElement.clientWidth
 
-# 获取文档流的高度
-* document.body.clientHeight  
 
 # 深入浅出ES6
 
@@ -53,4 +44,5 @@ for (var key of Object.keys(someObject)) {
   console.log(key + ": " + someObject[key]);
 }
 ```
+
 

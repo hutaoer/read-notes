@@ -25,3 +25,12 @@ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/notice-icon.
 filter: ~"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=’img/notice-icon.gif’, sizingMethod=’scale’)";
 -ms-filter: ~"\“progid:DXImageTransform.Microsoft.AlphaImageLoader(src=’img/notice-icon.gif’, sizingMethod=’scale’)\”";
 ```
+
+# viewport 单位的使用
+## 介绍
+* vw – Percentage of viewport width
+* vh – Percentage of viewport height
+* vmin – vw or vh, whichever smaller
+* vmax – vw or vh, whichever bigger
+* Viewport, 跟屏幕大小相关. 1vw 屏幕宽度的 1%. 100vw 即 100% 的屏幕宽度.
+* Viewport 单位会随着视口的变化而变化。
